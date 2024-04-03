@@ -1,0 +1,168 @@
+/* .Rides1{
+margin-bottom:800px;
+margin-right: 600px;
+
+}
+ */
+.Ride1 {
+
+  width: 300px;
+  height: 330px;
+  border: 2px solid black;
+  background-color: skyblue;
+  margin-top: 1px;
+
+}
+
+.Ride2 {
+
+  width: 300px;
+  height: 200px;
+  border: 2px solid black;
+  background-color: skyblue;
+
+}
+
+/* 
+.Ride3{
+
+    width: 300px;
+    height: 300px;
+    border:2px solid black ;
+    background-color:skyblue ;
+}
+
+.Ride4{
+
+    width: 300px;
+    height: 300px;
+    border:2px solid black ;
+    background-color:skyblue ;
+}
+
+.Ride5{
+
+    width: 300px;
+    height: 300px;
+    border:2px solid black ;
+    background-color:skyblue ;
+}
+
+.Ride6{
+
+width:300px;
+height:300px;
+border:2px solid black ;
+background-color:skyblue ;
+
+}
+
+
+
+.Ride7{
+
+  Width:300px;
+  height: 300px;
+  border:2px solid black ;
+  background-color:skyblue ;
+}
+
+.Ride8{  
+
+  width:300px;
+  height:300px;
+  border:2px solid black ;
+  background-color:skyblue ;
+}
+
+.Ride9{
+  
+  width:300px;
+  height:200px;
+  border:2px solid black ;
+  background-color:skyblue ;
+}
+
+.Ride10{
+
+  width:300px;
+  height: 200px;
+  border:2px solid black ;
+  background-color:skyblue ;
+} */
+
+/* Rides.css */
+
+.navbar {
+  background-color: #ffffff;
+  /* Background color of the navbar */
+  border-bottom: 1px solid #dddddd;
+  /* Bottom border */
+}
+
+.navbar-brand {
+  color: #333333;
+  /* Color of the brand text */
+  font-weight: bold;
+  /* Font weight of the brand text */
+}
+
+.navbar-nav .nav-link {
+  color: #333333;
+  /* Color of the nav links */
+  font-weight: bold;
+  /* Font weight of the nav links */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #000000;
+  /* Color of nav links on hover */
+}
+
+.form-control {
+  width: 200px;
+  /* Width of the search input */
+  margin-right: 10px;
+  /* Margin between search input and other elements */
+}
+
+/* Adjustments for mobile view */
+@media (max-width: 768px) {
+  .navbar-nav {
+    margin-left: auto;
+    /* Move nav links to the right on small screens */
+  }
+
+  .form-control {
+    width: 100%;
+    /* Make search input full width on small screens */
+    margin-right: 0;
+    /* Remove margin for small screens */
+    margin-bottom: 10px;
+    /* Add bottom margin for small screens */
+  }
+}
+
+/* .bg{
+    background-color:skyblue;
+    width: 200px;
+  } */
+.Rides1 {
+
+  margin-right: -500px;
+  width: 1400px;
+
+}
+
+/* .search bar {
+  margin-right: 1000px;
+  width:100%;
+
+} */
+.searchbar{
+width:-1500px;
+
+}
+.bg{
+  margin-left: 10px;
+}

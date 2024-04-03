@@ -1,0 +1,115 @@
+.new {
+
+    margin-bottom: 900px;
+    margin-right: -1080px;
+    width: 1400px;
+
+}
+
+.search1 {
+
+    margin-left: 120%;
+
+}
+
+.nav1 {
+
+    background-color: skyblue;
+    width: 200px;
+
+}
+
+.ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+li a.active {
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+.Ride12 {
+    margin-left: 300px;
+    width: 300px;
+    margin-bottom: 50px;
+    margin-right: 300px;
+}
+
+.Ride11 {
+    margin-left: 300px;
+    width: 300px;
+    margin-bottom: 50px;
+    margin-right: 300px;
+}
+
+.feedback {
+
+    background-color: skyblue;
+    /* margin-right: 500px; */
+    border-color: #000;
+    /* margin-bottom: 800px; */
+    width: 500px;
+    /* margin-left: 280px; */
+    margin-top: -50px;
+    text-align: center;
+}
+
+.discription {
+
+    margin-right: 350px;
+
+}
+
+.message {
+    /* margin-top: 300px; */
+    margin-right: 400px;
+
+}
+
+.txt {
+
+    background-color: darkgreen;
+}
+
+/* .feedbacks{
+
+    
+    background-color: skyblue;
+    margin-right: 500px;
+    border-color: #000;
+    margin-bottom: 800px;
+    width: 400px;
+    margin-left: 280px;
+    margin-top: -50px;
+text-align: center;
+} */
+
+.feedback_each {
+    border: 2px solid black;
+    padding: 20px;
+    width: -60px;
+    margin: 10px;
+    background-color: lightseagreen;
+}
+
+.back button {
+    background-color: green;
+
+}

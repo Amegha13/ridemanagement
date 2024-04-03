@@ -1,0 +1,39 @@
+ .Headings {
+    margin-left: 200px;
+    padding: 5px;
+    border: 2px solid black;
+    background-color:skyblue;
+    border-radius: 50px;
+    width: 600px;
+  text-align: center;
+  }
+.txtt{
+    background-color: silver;
+    border-radius: 20px;
+    border-color: black;
+} 
+
+
+/* .aa{
+    margin-right:200px;
+    margin-top:200px;
+} 
+ .hh{
+    margin-left: 80px;
+}
+.ee{
+    margin-left: 10px;
+}
+.gg{
+    margin-left: 70px;
+}
+.rr{
+    margin-left: 10px;
+}
+.pp{
+   margin-left: 60px;
+} */
+.bb{
+    margin-left: 30px;
+}
+

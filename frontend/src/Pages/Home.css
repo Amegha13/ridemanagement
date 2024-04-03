@@ -1,0 +1,20 @@
+.home {
+    width: 100vw;
+    height: 100vh;
+    background: url("https://i.pinimg.com/736x/a1/62/d0/a162d09c913b12ddef946e579a960735.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.img1 {
+
+    margin-right: 1100px;
+    height: 1000px;
+    width: 1070px;
+}
+
+#ww {
+
+    margin-right: 20px;
+}
