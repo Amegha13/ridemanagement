@@ -159,10 +159,16 @@ background-color:skyblue ;
   width:100%;
 
 } */
-.searchbar{
-width:-1500px;
+.searchbar {
+
+  width: 1050px;
 
 }
-.bg{
+
+.bg {
   margin-left: 10px;
+}
+
+#pp{
+  margin-right:-800px;
 }

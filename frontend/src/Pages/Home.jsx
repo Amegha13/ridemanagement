@@ -5,10 +5,8 @@ import Button from 'react-bootstrap/Button';
 
 function Home() {
 
-
   const token = localStorage.getItem("jwt")
   const navgitor = useNavigate()
-
 
   const handleLogout = () => {
     localStorage.removeItem("jwt")
@@ -20,6 +18,7 @@ function Home() {
     <div className='home'>
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
+          
           <a class="navbar-brand" href="#">HOME</a><br></br>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -36,9 +35,11 @@ function Home() {
 
             </ul>
             <form class="d-flex" role="search">
+              <div className='search'>
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-
+              </div>
               {/* <button class="btn btn-outline-success" type="submit">Search</button> */}
+
               {
                 token ?
 
@@ -46,6 +47,7 @@ function Home() {
                   :
                   <Button id='ww' onClick={() => navgitor("/Login")}>Login</Button>
               }
+
             </form>
           </div>
         </div>

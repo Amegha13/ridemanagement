@@ -36,9 +36,14 @@ function Login() {
 
   }
 
-  return (
-    <div>
 
+  return (
+
+
+    <div>
+<div className='new button'>
+  <button onClick={() => navigate("/")}  >Back To Home</button>
+</div>
 
       <div className="form1">
         <h1>LOG IN </h1>
@@ -48,7 +53,6 @@ function Login() {
           <label>Email:
             <input type="Email" onChange={(e) => setemail(e.target.value)} />
           </label><br></br><br></br>
-
 
           <label> Password:
             <input type="password" onChange={(e) => setpassword(e.target.value)} />

@@ -6,6 +6,7 @@ import { useNavigate, useParams } from 'react-router-dom'
 import axios from 'axios'
 
 
+
 function Ride1() {
 
   const { rideid } = useParams()
@@ -58,9 +59,8 @@ function Ride1() {
   const [state, Setstate] = useState(0)
 
 
-
   const getfeedback = () => {
-    axios.post("http://localhost:1003/viewfeedback")
+    axios.post("http://localhost:1003/viewfeedback/" + rideid)
       .then((res) => {
         console.log(res.data);
 
@@ -85,12 +85,9 @@ function Ride1() {
     getRide_id()
   }, [])
 
-
-
   return (
 
     <>
-
 
       <div className='new'>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -108,20 +105,16 @@ function Ride1() {
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="" onClick={() => navgitor("/Register")}>Register</a>
+                  <a class="nav-link active" aria-current="page" href="" onClick={() => navigate("/Register")}>Register</a>
                 </li>
-
 
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="" onClick={() => navgitor("/Login")}>Login </a>
+                  <a class="nav-link active" aria-current="page" href="" onClick={() => navigate("/Login")}>Login</a>
                 </li>
-
 
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="" onClick={() => navgitor("/Rides")}>Rides </a>
+                  <a class="nav-link active" aria-current="page" href="" onClick={() => navigate("/Rides")}>Rides</a>
                 </li>
-
-
 
                 {/* <li class="nav-item">
                 <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Deal change</a>
@@ -139,9 +132,6 @@ function Ride1() {
           </div>
         </nav>
 
-
-
-
         <div className='nav1'>
 
           <ul>
@@ -155,7 +145,7 @@ function Ride1() {
 
 
         <div className='back button'>
-          <button onClick={() => navigate("/")}  >Back To Home</button>
+          <button onClick={() => navigate("/")}>Back To Home</button>
         </div>
 
 
@@ -198,7 +188,7 @@ function Ride1() {
                     <div className="feedname">{ele.feedbackname}</div>
                     <div className="feedname">{ele.feedbackdesc}</div>
                     <div className="feedname">Date :{formatDate(ele.date)}</div>
-                    <div className="feedname">issue :{ele.verify ? "solved" : "pending"(ele.date)}</div>
+                    <div className="feedname">issue :{ele.verify ? "solved" : "pending"}</div>
 
                   </div>
                 )

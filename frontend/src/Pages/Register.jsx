@@ -18,7 +18,6 @@ function Register() {
   const handleClick = () => {
 
 
-
     const formData = new FormData()
 
     formData.append("name", name)
@@ -50,6 +49,7 @@ function Register() {
             <input type="text" onChange={(e) => setname(e.target.value)} />
           </label><br /><br />
         </div>
+
         <div className='cc'>
           <label>Enter Your Email:
             <input type="email" onChange={(e) => setemail(e.target.value)} />
@@ -60,8 +60,7 @@ function Register() {
           <label>Enter Your Password:
             <input type="password" onChange={(e) => setpassword(e.target.value)} />
           </label>
-        </div>
-        <br /><br />
+        </div><br /><br />
 
         <div className='zz'>
 

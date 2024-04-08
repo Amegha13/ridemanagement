@@ -272,7 +272,7 @@ app.post('/addfeedback', async (req, res) => {
 });
 
 
-app.post("/viewfeedback", (req, res) => {
+app.post("/viewfeedback/:rideid", (req, res) => {
     Feedback.find({ride_id:req.params.rideid}).then(feedback_output => {
         console.log(feedback_output);
         res.send(feedback_output)
